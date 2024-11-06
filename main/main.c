@@ -102,11 +102,11 @@ void display_task() {
 
             display_title(pot_value);
 
-            int y_current = 0;
-            int y_previous = 0;
-            int index = 0;
 
             for (int x = 0; x < GRAPH_WIDTH - 50; x++) {
+                int y_current = 0;
+                int y_previous = 0;
+                int index = 0;
                 int x_screen = GRAPH_WIDTH - 21 - x; 
                 index = (pot_index - x - 1 + (GRAPH_WIDTH - 50)) % (GRAPH_WIDTH - 50);
                 int value = pot_values[index];
