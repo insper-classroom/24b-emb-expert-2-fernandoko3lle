@@ -40,6 +40,10 @@
          "buildTarget": {
              "visibility": "hidden"
          }
+},
+"files.associations": {
+    "adc.h": "c",
+    "pwm.h": "c"
 }
 
      
